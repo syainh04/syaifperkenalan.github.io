@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syaif Web - Home</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+<nav>
+    <h2 class="logo">Syaif<span>Web</span></h2>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="materi.html">Materi TKJ</a></li>
+        <li><a href="karya.html">Karya</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <img src="img/profile.jpg" alt="Foto Syaif">
+    <h1>Halo, Aku <span>Syaif</span></h1>
+    <p>Pelajar SMK yang sedang belajar membuat website.</p>
+</section>
+
+<section class="about">
+    <h2>Tentang Saya</h2>
+    <p>Halo, saya Syaifudin Nur Hidayat, seorang pelajar SMK yang memiliki minat di bidang teknologi dan jaringan komputer.
+Saya masuk SMK dengan visi untuk mengembangkan kemampuan, pengetahuan, serta keterampilan di bidang IT agar mampu bersaing di dunia kerja dan melanjutkan pendidikan ke jenjang yang lebih tinggi.
+Saya percaya bahwa dengan belajar sungguh-sungguh, disiplin, dan terus berlatih, saya dapat meraih cita-cita saya di masa depan..</p>
+</section>
+
+<!-- ✅ ALAMAT -->
+<section class="alamat">
+    <h2>Alamat</h2>
+    <p>Saya tinggal di Jomblang , Palbapang Bantul.</p>
+</section>
+
+<!-- ✅ CITA-CITA -->
+<section class="cita">
+    <h2>Cita-cita</h2>
+    <p>Saya bercita-cita menjadi seorang Web Developer dan Network Engineer profesional dan Bos Muda.</p>
+</section>
+
+<section class="projects">
+    <h2>Hobi Saya</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="img/project1.jpg" alt="Projek 1">
+            <h3>Hobi 1</h3>
+            <p>Mendaki gunung.</p>
+        </div>
+        <div class="project-card">
+            <img src="img/project2.jpg" alt="Projek 2">
+            <h3>Hobi 2</h3>
+            <p>Running.</p>
+        </div>
+        <div class="project-card">
+            <img src="img/project3.jpg" alt="Projek 3">
+            <h3>Hobi 3</h3>
+            <p>Berorganisasi.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Kontak & Media Sosial</h2>
+    <div class="contact-links">
+        <a href="https://wa.me/6281234567890" target="_blank" class="contact-box">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://instagram.com/syainh.04" target="_blank" class="contact-box">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="mailto:syaifudinnurhidayat210@gmail.com" class="contact-box">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+    </div>
+</section>
+
+<button class="dark-toggle">🌙</button>
+
+<script>
+const toggle = document.querySelector('.dark-toggle');
+toggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
+</script>
+
+</body>
+</html>
